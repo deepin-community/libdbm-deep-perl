@@ -1,0 +1,37 @@
+Source: libdbm-deep-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>,
+           Ansgar Burchardt <ansgar@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               libmodule-build-perl (>= 0.420000) | perl (<< 5.19.0)
+Build-Depends-Indep: perl,
+                     libdbd-sqlite3-perl,
+                     libdbi-perl,
+                     libfilehandle-fmode-perl,
+                     libio-stringy-perl,
+                     libtest-deep-perl,
+                     libtest-exception-perl,
+                     libtest-pod-coverage-perl,
+                     libtest-pod-perl,
+                     libtest-warn-perl
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdbm-deep-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdbm-deep-perl.git
+Homepage: https://metacpan.org/release/DBM-Deep
+
+Package: libdbm-deep-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends}
+Suggests: libdbi-perl,
+          libdbd-sqlite3-perl | libdbd-mysql-perl
+Description: pure perl multi-level hash/array DBM that supports transactions
+ DBM::Deep is an unique flat-file database module, written in pure perl. True
+ multi-level hash/array support (unlike MLDBM, which is faked), hybrid OO /
+ tie() interface, cross-platform FTPable files, ACID transactions, and is quite
+ fast. Can handle millions of keys and unlimited levels without significant
+ slow-down. Written from the ground-up in pure perl -- this is NOT a wrapper
+ around a C-based DBM.

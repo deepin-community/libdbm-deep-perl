@@ -1,0 +1,15 @@
+libdbm-deep-perl (2.0000-1) unstable; urgency=low
+
+  From upstream Changes:
+
+  1.9999_01 Jun 27 14:22:00 2010 PDT
+  - THIS VERSION CHANGES THE FILE FORMAT.
+    - Databases from DBM::Deep 1.0003 and higher can still be opened.
+    - Newly-created databases automatically use the version 2.x format
+      (numbered 4 internally), which version 1.x cannot open.
+    - The optimize method, since it copies everything to a new database,
+      upgrades it.
+    - There is a new db_version method.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sat, 24 Jul 2010 15:03:11 +0900
+
