@@ -12,4 +12,3 @@ libdbm-deep-perl (2.0000-1) unstable; urgency=low
     - There is a new db_version method.
 
  -- Ansgar Burchardt <ansgar@43-1.org>  Sat, 24 Jul 2010 15:03:11 +0900
-

@@ -1,5 +1,6 @@
 ---
 Archive: CPAN
-Contact: unknown
-Name: DBM-Deep
-Repository: https://github.com/robkinyon/dbm-deep
+Bug-Database: https://github.com/DBM-Deep/DBM-Deep/issues
+Bug-Submit: https://github.com/DBM-Deep/DBM-Deep/issues/new
+Repository: https://github.com/DBM-Deep/DBM-Deep.git
+Repository-Browse: https://github.com/DBM-Deep/DBM-Deep
