@@ -1,3 +1,52 @@
+libdbm-deep-perl (2.0019-1) unstable; urgency=medium
+
+  * Import upstream version 2.0019.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 12 Nov 2023 20:28:33 +0100
+
+libdbm-deep-perl (2.0018-1) unstable; urgency=medium
+
+  * Import upstream version 2.0018.
+  * Update debian/upstream/metadata.
+  * Update test and runtime dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 10 Nov 2023 02:24:52 +0100
+
+libdbm-deep-perl (2.0017-1) unstable; urgency=medium
+
+  * Import upstream version 2.0017.
+  * Update debian/upstream/metadata.
+  * Update years of upstream copyright.
+  * Drop DBM-Deep-2.0016-Fix-for-perl-5.38.patch.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 01 Oct 2023 04:14:35 +0200
+
+libdbm-deep-perl (2.0016-3) unstable; urgency=medium
+
+  * Add patch from CPAN RT to fix failures with perl >= 5.37.9.
+  * Update debian/upstream/metadata.
+  * debian/rules: use $(RM) instead of plain `rm'.
+  * Update years of packaging copyright.
+  * Cleanup alternative build dependencies.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Set Rules-Requires-Root: no.
+  * Annotate test-only build dependencies with <!nocheck>.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 02 Jul 2023 20:40:11 +0200
+
+libdbm-deep-perl (2.0016-2) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on libmodule-build-perl.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.1.5, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 07 Dec 2022 00:11:22 +0000
+
 libdbm-deep-perl (2.0016-1) unstable; urgency=medium
 
   [ Damyan Ivanov ]

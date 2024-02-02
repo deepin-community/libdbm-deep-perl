@@ -2,9 +2,6 @@ NAME
     DBM::Deep - A pure perl multi-level hash/array DBM that supports
     transactions
 
-VERSION
-    2.0016
-
 SYNOPSIS
       use DBM::Deep;
       my $db = DBM::Deep->new( "foo.db" );
@@ -1182,18 +1179,16 @@ CODE COVERAGE
       ---------------------------- ------ ------ ------ ------ ------ ------ ------
 
 MORE INFORMATION
-    Check out the DBM::Deep Google Group at
-    <http://groups.google.com/group/DBM-Deep> or send email to
-    DBM-Deep@googlegroups.com <mailto:DBM-Deep@googlegroups.com>. You can
-    also visit #dbm-deep on irc.perl.org
-
-    The source code repository is at <http://github.com/robkinyon/dbm-deep>
+    The source code repository is at
+    <http://github.com/DrHyde/perl-modules-DBM-Deep>
 
 MAINTAINERS
-    Rob Kinyon, rkinyon@cpan.org <mailto:rkinyon@cpan.org>
+    Currently maintained by David Cantrell dcantrell@cpan.org
+    <mailto:dcantrell@cpan.org>.
 
     Originally written by Joseph Huckaby, jhuckaby@cpan.org
-    <mailto:jhuckaby@cpan.org>
+    <mailto:jhuckaby@cpan.org> with significant additions by Rob Kinyon,
+    rkinyon@cpan.org <mailto:rkinyon@cpan.org>
 
 SPONSORS
     Stonehenge Consulting (<http://www.stonehenge.com/>) sponsored the
@@ -1225,7 +1220,7 @@ SEE ALSO
     perltie(1), Tie::Hash(3), Fcntl(3), flock(2), lockf(3), nfs(5)
 
 LICENSE
-    Copyright (c) 2007-14 Rob Kinyon. All Rights Reserved. This is free
-    software, you may use it and distribute it under the same terms as Perl
-    itself.
+    Copyright (c) 2007-23 Rob Kinyon and others. All Rights Reserved. This
+    is free software, you may use it and distribute it under the same terms
+    as Perl itself.
 

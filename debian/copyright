@@ -4,13 +4,13 @@ Upstream-Contact: Rob Kinyon <rkinyon@cpan.org>
 Source: https://metacpan.org/release/DBM-Deep
 
 Files: *
-Copyright: 2007-2014, Rob Kinyon <rkinyon@cpan.org>
+Copyright: 2007-2023, Rob Kinyon <rkinyon@cpan.org>
  2002-2006, Joseph Huckaby <jhuckaby@cpan.org>
 License: Artistic or GPL-1+
 
 Files: debian/*
 Copyright: 2008, AGOSTINI Yves <agostini@univ-metz.fr>
- 2010-2018, gregor herrmann <gregoa@debian.org>
+ 2010-2023, gregor herrmann <gregoa@debian.org>
  2012, Nathan Handler <nhandler@debian.org>
 License: Artistic or GPL-1+
 
